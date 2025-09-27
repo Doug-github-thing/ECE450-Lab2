@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# xsim v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Sep 27 19:05:58 2025
+# Process ID         : 209079
+# Current directory  : /home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog
+# Command line       : xsim -mode tcl -source {xsim.dir/fir_filter/xsim_script.tcl}
+# Log file           : /home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/xsim.log
+# Journal file       : /home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/xsim.jou
+# Running On         : mint
+# Platform           : Linuxmint
+# Operating System   : Linux Mint 21.3
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency      : 2749.640 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16450 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 18597 MB
+# Available Virtual  : 10108 MB
+#-----------------------------------------------------------
+source xsim.dir/fir_filter/xsim_script.tcl
+open_wave_config fir_filter_dataflow_ana.wcfg
+source fir_filter.tcl

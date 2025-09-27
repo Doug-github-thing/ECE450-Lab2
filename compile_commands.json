@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "/home/dog/school/fpgaece450/p2/filter",
+    "arguments": [
+      "/Xilinx/2025.1/Vitis/vcxx/libexec/clang++",
+      "--gcc-toolchain=/Xilinx/2025.1/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/Xilinx/2025.1/Vitis/common/technology/autopilot",
+      "-fhlstoplevel=fir_filter",
+      "-c",
+      "/home/dog/school/fpgaece450/p2/filter/filter.cpp"
+    ],
+    "file": "/home/dog/school/fpgaece450/p2/filter/filter.cpp"
+  },
+  {
+    "directory": "/home/dog/school/fpgaece450/p2/filter",
+    "arguments": [
+      "/Xilinx/2025.1/Vitis/vcxx/libexec/clang++",
+      "--gcc-toolchain=/Xilinx/2025.1/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=/Xilinx/2025.1/Vitis/include",
+      "-c",
+      "/home/dog/school/fpgaece450/p2/filter/tb.cpp"
+    ],
+    "file": "/home/dog/school/fpgaece450/p2/filter/tb.cpp"
+  }
+]

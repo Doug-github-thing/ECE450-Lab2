@@ -1,0 +1,1 @@
+xsim {fir_filter} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=fir_filter_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -view {{fir_filter_dataflow_ana.wcfg}} -tclbatch {fir_filter.tcl} -protoinst {fir_filter.protoinst}

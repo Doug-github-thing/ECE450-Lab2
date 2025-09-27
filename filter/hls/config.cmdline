@@ -1,0 +1,3 @@
+relativeroot=/home/dog/school/fpgaece450/p2/filter
+original_argv=--mode hls --cosim --config /home/dog/school/fpgaece450/p2/filter/hls_config.cfg --work_dir filter 
+

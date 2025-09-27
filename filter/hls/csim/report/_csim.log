@@ -1,0 +1,10 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../tb.cpp in debug mode
+../../../../tb.cpp:2:10: fatal error: 'filter.h' file not found
+#include "filter.h"
+         ^~~~~~~~~~
+1 error generated.
+make: *** [csim.mk:87: obj/tb.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************

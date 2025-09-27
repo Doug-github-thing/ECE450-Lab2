@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/dog/school/fpgaece450/p2/filter/filter/hls/./sim/autowrap/testbench/filter.cpp_pre.cpp.tb.cpp

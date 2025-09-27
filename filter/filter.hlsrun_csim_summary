@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "/home/dog/school/fpgaece450/p2/filter/filter/filter.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Sat Sep 27 19:03:08 2025",
+ "timestampMillis": "1759014188025",
+ "buildStep": {
+  "cmdId": "d092cf4f-fc1d-42e7-9906-bbd2ad7e5b1e",
+  "name": "vitis-run",
+  "logFile": "/home/dog/school/fpgaece450/p2/filter/filter/logs/filter.steps.log",
+  "commandLine": "/Xilinx/2025.1/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --csim --config /home/dog/school/fpgaece450/p2/filter/hls_config.cfg --work_dir /home/dog/school/fpgaece450/p2/filter/filter ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "/home/dog/school/fpgaece450/p2/filter/hls_config.cfg",
+   "--work_dir",
+   "/home/dog/school/fpgaece450/p2/filter/filter"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/dog/school/fpgaece450/p2/filter"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Sep 27 19:03:08 2025",
+ "timestampMillis": "1759014188025",
+ "status": {
+  "cmdId": "d092cf4f-fc1d-42e7-9906-bbd2ad7e5b1e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Sat Sep 27 19:03:10 2025",
+ "timestampMillis": "1759014190878",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "fir_filter",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/dog/school/fpgaece450/p2/filter/filter.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat Sep 27 19:03:10 2025",
+ "timestampMillis": "1759014190878",
+ "buildStep": {
+  "cmdId": "f1f421ac-e587-4c47-8c6b-9edb7b68cb61",
+  "name": "",
+  "logFile": "/home/dog/school/fpgaece450/p2/filter/filter/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/dog/school/fpgaece450/p2/filter"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Sep 27 19:03:10 2025",
+ "timestampMillis": "1759014190878",
+ "status": {
+  "cmdId": "f1f421ac-e587-4c47-8c6b-9edb7b68cb61",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Sep 27 19:03:12 2025",
+ "timestampMillis": "1759014192471",
+ "status": {
+  "cmdId": "f1f421ac-e587-4c47-8c6b-9edb7b68cb61",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat Sep 27 19:03:12 2025",
+ "timestampMillis": "1759014192561",
+ "status": {
+  "cmdId": "d092cf4f-fc1d-42e7-9906-bbd2ad7e5b1e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Sep 27 19:03:12 2025",
+ "timestampMillis": "1759014192561",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat Sep 27 19:03:12 2025",
+ "timestampMillis": "1759014192561",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
