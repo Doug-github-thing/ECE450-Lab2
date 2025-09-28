@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'fir_filter'" level="0">
-<item name = "Date">Sat Sep 27 19:03:48 2025
+<item name = "Date">Sat Sep 27 20:26:39 2025
 </item>
 <item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">filter</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 6.860 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 7.207 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,19 +24,18 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">285, 285, 2.850 us, 2.850 us, 286, 286, no</column>
+<column name="">263, 263, 2.630 us, 2.630 us, 264, 264, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_fir_filter_Pipeline_VITIS_LOOP_13_1_fu_116">fir_filter_Pipeline_VITIS_LOOP_13_1, 18, 18, 0.180 us, 0.180 us, 17, 17, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_fir_filter_Pipeline_VITIS_LOOP_18_2_fu_150">fir_filter_Pipeline_VITIS_LOOP_18_2, 263, 263, 2.630 us, 2.630 us, 257, 257, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Outer">261, 261, 7, 1, 1, 256, yes</column>
 </table>
 </item>
 </section>

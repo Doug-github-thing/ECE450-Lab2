@@ -1,62 +1,23 @@
 {
-    "1": {
-        "name": "fir_filter_Pipeline_VITIS_LOOP_13_1",
-        "file": "filter.cpp",
-        "fileloc": "13",
-        "instructions": "46",
-        "total_instructions": "46",
-        "calls": "",
-        "basicblocks": "21",
-        "memory_accesses": "17",
-        "control_depth": "2",
-        "def_use_depth": "1",
-        "loads": {
-            "L": "1"
-        },
-        "stores": {
-            "G": "15",
-            "L": "2"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
     "0": {
         "name": "fir_filter",
         "file": "filter.cpp",
         "fileloc": "10",
-        "instructions": "68",
-        "total_instructions": "243",
-        "calls": "1 2",
-        "basicblocks": "1",
-        "memory_accesses": "0",
-        "control_depth": "0",
-        "def_use_depth": "2",
-        "loads": {
-            "G": "15",
-            "L": "15"
-        },
-        "stores": {
-            "G": "15"
-        }
-    },
-    "2": {
-        "name": "fir_filter_Pipeline_VITIS_LOOP_18_2",
-        "file": "filter.cpp",
-        "fileloc": "18",
-        "instructions": "129",
-        "total_instructions": "129",
+        "instructions": "86",
+        "total_instructions": "86",
         "calls": "",
-        "basicblocks": "4",
-        "memory_accesses": "33",
-        "control_depth": "1",
+        "basicblocks": "3",
+        "memory_accesses": "6",
+        "control_depth": "0",
         "def_use_depth": "1",
         "loads": {
-            "L": "16",
+            "G": "14",
+            "L": "2",
             "T": "1"
         },
         "stores": {
-            "L": "32",
+            "G": "14",
+            "L": "4",
             "T": "1"
         },
         "loops": {

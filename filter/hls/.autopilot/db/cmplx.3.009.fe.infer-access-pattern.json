@@ -1,22 +1,22 @@
 {
   "0": {
-    "basicblocks": 9,
+    "basicblocks": 3,
     "calls": "",
     "control_depth": 0,
-    "def_use_depth": 3,
+    "def_use_depth": 16,
     "file": "filter.cpp",
     "fileloc": 10,
-    "instructions": 44,
+    "instructions": 89,
     "loads": {
-      "G": 3,
+      "G": 15,
       "T": 1
     },
-    "memory_accesses": 5,
+    "memory_accesses": 2,
     "name": "fir_filter",
     "stores": {
-      "G": 3,
+      "G": 16,
       "T": 1
     },
-    "total_instructions": 44
+    "total_instructions": 89
   }
 }

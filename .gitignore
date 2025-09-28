@@ -3,6 +3,8 @@
 
 vivado.*
 
+hls/
+
 # Ignore build output directory
 /build
 /export

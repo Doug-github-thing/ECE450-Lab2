@@ -3,8 +3,8 @@
 # SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Sat Sep 27 19:05:58 2025
-# Process ID         : 209079
+# Start of session at: Sat Sep 27 20:27:32 2025
+# Process ID         : 234796
 # Current directory  : /home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog
 # Command line       : xsim -mode tcl -source {xsim.dir/fir_filter/xsim_script.tcl}
 # Log file           : /home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/xsim.log
@@ -13,20 +13,18 @@
 # Platform           : Linuxmint
 # Operating System   : Linux Mint 21.3
 # Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
-# CPU Frequency      : 2749.640 MHz
+# CPU Frequency      : 399.471 MHz
 # CPU Physical cores : 4
 # CPU Logical cores  : 8
 # Host memory        : 16450 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 18597 MB
-# Available Virtual  : 10108 MB
+# Available Virtual  : 12071 MB
 #-----------------------------------------------------------
 source xsim.dir/fir_filter/xsim_script.tcl
 # xsim {fir_filter} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=fir_filter_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -view {{fir_filter_dataflow_ana.wcfg}} -tclbatch {fir_filter.tcl} -protoinst {fir_filter.protoinst}
 INFO: [Wavedata 42-565] Reading protoinst file fir_filter.protoinst
 INFO: [Wavedata 42-564]   Found protocol instance at /apatb_fir_filter_top/AESL_inst_fir_filter//AESL_inst_fir_filter_activity
-INFO: [Wavedata 42-564]   Found protocol instance at /apatb_fir_filter_top/AESL_inst_fir_filter/grp_fir_filter_Pipeline_VITIS_LOOP_13_1_fu_116/grp_fir_filter_Pipeline_VITIS_LOOP_13_1_fu_116_activity
-INFO: [Wavedata 42-564]   Found protocol instance at /apatb_fir_filter_top/AESL_inst_fir_filter/grp_fir_filter_Pipeline_VITIS_LOOP_18_2_fu_150/grp_fir_filter_Pipeline_VITIS_LOOP_18_2_fu_150_activity
 Time resolution is 1 ps
 open_wave_config fir_filter_dataflow_ana.wcfg
 source fir_filter.tcl
@@ -130,8 +128,8 @@ UVM_INFO /Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(2
 // RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
 ////////////////////////////////////////////////////////////////////////////////////
 // RTL Simulation : 0 / 1 [0.00%] @ "125000"
-// RTL Simulation : 1 / 1 [100.00%] @ "2975000"
+// RTL Simulation : 1 / 1 [100.00%] @ "2795000"
 ////////////////////////////////////////////////////////////////////////////////////
-$finish called at time : 3025 ns : File "/Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+$finish called at time : 2845 ns : File "/Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
 ## quit
-INFO: [Common 17-206] Exiting xsim at Sat Sep 27 19:06:02 2025...
+INFO: [Common 17-206] Exiting xsim at Sat Sep 27 20:27:36 2025...

@@ -6215,22 +6215,22 @@ __attribute__((sdx_kernel("fir_filter", 0))) void fir_filter(int in[size], int o
 
 
 
- VITIS_LOOP_13_1: for (int k=0; k<N_TAPS; ++k) {
-  shift_reg[k] = 0;
- }
+    Outer:for (int i=0; i<size; ++i) {
+#pragma HLS PIPELINE
 
 
-    VITIS_LOOP_18_2: for (int i=0; i<size; ++i) {
+ SHIFT:for (int k=N_TAPS-1; k>0; --k) {
 
 
-        VITIS_LOOP_21_3: for (int k=N_TAPS-1; k>0; --k) {
             shift_reg[k] = shift_reg[k-1];
         }
 
         shift_reg[0] = in[i];
 
         long acc = 0;
-        VITIS_LOOP_28_4: for (int k=0; k<N_TAPS; ++k) {
+        ACC:for (int k=0; k<N_TAPS; ++k) {
+
+
             acc += shift_reg[k] * co_eff[k];
         }
 

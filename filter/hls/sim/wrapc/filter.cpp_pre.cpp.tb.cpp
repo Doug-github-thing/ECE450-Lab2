@@ -59698,22 +59698,22 @@ int shift_reg[N_TAPS];
 void fir_filter(int in[size], int out[size]) {
 
 
- for (int k=0; k<N_TAPS; ++k) {
-  shift_reg[k] = 0;
- }
+    Outer:for (int i=0; i<size; ++i) {
+#pragma HLS PIPELINE
 
 
-    for (int i=0; i<size; ++i) {
+        SHIFT:for (int k=N_TAPS-1; k>0; --k) {
 
 
-        for (int k=N_TAPS-1; k>0; --k) {
             shift_reg[k] = shift_reg[k-1];
         }
 
         shift_reg[0] = in[i];
 
         long acc = 0;
-        for (int k=0; k<N_TAPS; ++k) {
+        ACC:for (int k=0; k<N_TAPS; ++k) {
+
+
             acc += shift_reg[k] * co_eff[k];
         }
 

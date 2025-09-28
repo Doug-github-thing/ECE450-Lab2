@@ -9,6 +9,7 @@
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<36, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<32, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<36, true>::operator long long() const" off="0" region="0" recursive="0"/>
+<pragma file="filter.cpp" line="14" pragmaType="pipeline" parentfunction="fir_filter" off="0" ii="-1" rewind="0" style=""/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<4, true>::RType<($_0)32, true>::mult operator*<4, true>(int, ap_int_base<4, true> const&)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<4, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
 <pragma file="/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_common.h" line="534" pragmaType="inline" parentfunction="_ZN8ssdm_intILi4ELb1EEC2EDq4_i" off="0" region="0" recursive="0"/>

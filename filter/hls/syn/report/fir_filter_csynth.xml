@@ -18,32 +18,54 @@
 <PipelineType>no</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>6.860</EstimatedClockPeriod>
+<EstimatedClockPeriod>7.207</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>285</Best-caseLatency>
-<Average-caseLatency>285</Average-caseLatency>
-<Worst-caseLatency>285</Worst-caseLatency>
-<Best-caseRealTimeLatency>2.850 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>2.850 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>2.850 us</Worst-caseRealTimeLatency>
-<Interval-min>286</Interval-min>
-<Interval-max>286</Interval-max>
+<Best-caseLatency>263</Best-caseLatency>
+<Average-caseLatency>263</Average-caseLatency>
+<Worst-caseLatency>263</Worst-caseLatency>
+<Best-caseRealTimeLatency>2.630 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>2.630 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>2.630 us</Worst-caseRealTimeLatency>
+<Interval-min>264</Interval-min>
+<Interval-max>264</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
+<SummaryOfLoopLatency>
+<Outer>
+<Slack>7.30</Slack>
+<TripCount>256</TripCount>
+<isPerfectNested>0</isPerfectNested>
+<Latency>261</Latency>
+<AbsoluteTimeLatency>2610</AbsoluteTimeLatency>
+<PipelineII>1</PipelineII>
+<PipelineDepth>7</PipelineDepth>
+<PerformancePragma>-</PerformancePragma>
+<InstanceList>
+</InstanceList>
+</Outer>
+</SummaryOfLoopLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
 <SourceLocation>filter.cpp:10</SourceLocation>
+<SummaryOfLoopViolations>
+<Outer>
+<Name>Outer</Name>
+<IssueType>-</IssueType>
+<ViolationType>-</ViolationType>
+<SourceLocation>filter.cpp:20</SourceLocation>
+</Outer>
+</SummaryOfLoopViolations>
 </SummaryOfViolations>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
 <DSP>0</DSP>
-<FF>3087</FF>
-<LUT>1430</LUT>
+<FF>1817</FF>
+<LUT>873</LUT>
 <BRAM_18K>0</BRAM_18K>
 <URAM>0</URAM>
 </Resources>

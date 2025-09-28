@@ -9,23 +9,26 @@ int shift_reg[N_TAPS];
 
 void fir_filter(int in[size], int out[size]) {
 
-	// init shift register with 0 value
-	for (int k=0; k<N_TAPS; ++k) {
-		shift_reg[k] = 0;
-	}
-
+    // #pragma HLS PIPELINE
+    
 	// total filter size start
-    for (int i=0; i<size; ++i) {
+    Outer:for (int i=0; i<size; ++i) {
+        // #pragma HLS UNROLL factor=4
+        // #pragma HLS PIPELINE
 
         // shifting accumulation points
-        for (int k=N_TAPS-1; k>0; --k) {
+        SHIFT:for (int k=N_TAPS-1; k>0; --k) {
+            // #pragma HLS UNROLL factor=4
+            // #pragma HLS PIPELINE
             shift_reg[k] = shift_reg[k-1];
         }
 
         shift_reg[0] = in[i];
 
         long acc = 0;
-        for (int k=0; k<N_TAPS; ++k) {
+        ACC:for (int k=0; k<N_TAPS; ++k) {
+            // #pragma HLS UNROLL factor=4
+            // #pragma HLS PIPELINE
             acc += shift_reg[k] * co_eff[k];
         }
 

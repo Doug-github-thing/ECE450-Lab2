@@ -283,5 +283,5 @@ result = -1446
 result = -1452
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 2.58 seconds. Total CPU system time: 0.37 seconds. Total elapsed time: 2.79 seconds; peak allocated memory: 281.742 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 7s
+INFO: [HLS 200-112] Total CPU user time: 3.29 seconds. Total CPU system time: 0.62 seconds. Total elapsed time: 3.75 seconds; peak allocated memory: 281.742 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 8s

@@ -18,23 +18,3 @@
       ^~~
       VITIS_LOOP_1248_1: 
 /home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp:4250:7: note: FIX-IT applied suggested code changes
-/home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp:6218:2: warning: Added loop label VITIS_LOOP_13_1:   [xilinx-label-all-loops]
- for (int k=0; k<N_TAPS; ++k) {
- ^~~
- VITIS_LOOP_13_1: 
-/home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp:6218:2: note: FIX-IT applied suggested code changes
-/home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp:6223:5: warning: Added loop label VITIS_LOOP_18_2:   [xilinx-label-all-loops]
-    for (int i=0; i<size; ++i) {
-    ^~~
-    VITIS_LOOP_18_2: 
-/home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp:6223:5: note: FIX-IT applied suggested code changes
-/home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp:6226:9: warning: Added loop label VITIS_LOOP_21_3:   [xilinx-label-all-loops]
-        for (int k=N_TAPS-1; k>0; --k) {
-        ^~~
-        VITIS_LOOP_21_3: 
-/home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp:6226:9: note: FIX-IT applied suggested code changes
-/home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp:6233:9: warning: Added loop label VITIS_LOOP_28_4:   [xilinx-label-all-loops]
-        for (int k=0; k<N_TAPS; ++k) {
-        ^~~
-        VITIS_LOOP_28_4: 
-/home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp:6233:9: note: FIX-IT applied suggested code changes

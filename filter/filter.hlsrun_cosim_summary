@@ -9,13 +9,13 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "Sat Sep 27 19:05:18 2025",
- "timestampMillis": "1759014318910",
+ "dateTimestamp": "Sat Sep 27 20:26:44 2025",
+ "timestampMillis": "1759019204987",
  "buildStep": {
-  "cmdId": "c8a48f43-9cca-4e4a-80df-72910503314b",
+  "cmdId": "c806dd5c-2866-4e0d-8f66-0e940b4e089f",
   "name": "vitis-run",
   "logFile": "/home/dog/school/fpgaece450/p2/filter/filter/logs/filter.steps.log",
-  "commandLine": "/Xilinx/2025.1/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --cosim --config /home/dog/school/fpgaece450/p2/filter/hls_config.cfg --work_dir filter ",
+  "commandLine": "/Xilinx/2025.1/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --cosim --config /home/dog/school/fpgaece450/p2/filter/hls_config.cfg --work_dir /home/dog/school/fpgaece450/p2/filter/filter ",
   "args": [
    "--mode",
    "hls",
@@ -23,7 +23,7 @@
    "--config",
    "/home/dog/school/fpgaece450/p2/filter/hls_config.cfg",
    "--work_dir",
-   "filter"
+   "/home/dog/school/fpgaece450/p2/filter/filter"
   ],
   "iniFiles": [],
   "cwd": "/home/dog/school/fpgaece450/p2/filter"
@@ -33,10 +33,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Sat Sep 27 19:05:18 2025",
- "timestampMillis": "1759014318910",
+ "dateTimestamp": "Sat Sep 27 20:26:44 2025",
+ "timestampMillis": "1759019204988",
  "status": {
-  "cmdId": "c8a48f43-9cca-4e4a-80df-72910503314b",
+  "cmdId": "c806dd5c-2866-4e0d-8f66-0e940b4e089f",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "Sat Sep 27 19:05:22 2025",
- "timestampMillis": "1759014322250",
+ "dateTimestamp": "Sat Sep 27 20:26:48 2025",
+ "timestampMillis": "1759019208635",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -80,10 +80,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "Sat Sep 27 19:05:22 2025",
- "timestampMillis": "1759014322251",
+ "dateTimestamp": "Sat Sep 27 20:26:48 2025",
+ "timestampMillis": "1759019208637",
  "buildStep": {
-  "cmdId": "f2a537c2-6c7e-43db-a9ae-91012f7664fb",
+  "cmdId": "0bb22471-e58a-4fa7-a576-7fd9a45bd454",
   "name": "",
   "logFile": "/home/dog/school/fpgaece450/p2/filter/filter/hls/hls.log",
   "commandLine": "",
@@ -96,10 +96,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Sat Sep 27 19:05:22 2025",
- "timestampMillis": "1759014322251",
+ "dateTimestamp": "Sat Sep 27 20:26:48 2025",
+ "timestampMillis": "1759019208637",
  "status": {
-  "cmdId": "f2a537c2-6c7e-43db-a9ae-91012f7664fb",
+  "cmdId": "0bb22471-e58a-4fa7-a576-7fd9a45bd454",
   "state": "CS_RUNNING"
  }
 }
@@ -107,8 +107,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Sat Sep 27 19:05:22 2025",
- "timestampMillis": "1759014322251",
+ "dateTimestamp": "Sat Sep 27 20:26:48 2025",
+ "timestampMillis": "1759019208637",
  "report": {
   "path": "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/report/fir_filter_cosim.rpt",
   "name": "",
@@ -121,8 +121,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Sat Sep 27 19:05:22 2025",
- "timestampMillis": "1759014322251",
+ "dateTimestamp": "Sat Sep 27 20:26:48 2025",
+ "timestampMillis": "1759019208637",
  "report": {
   "path": "/home/dog/school/fpgaece450/p2/filter/filter/hls",
   "name": "",
@@ -135,8 +135,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Sat Sep 27 19:05:22 2025",
- "timestampMillis": "1759014322252",
+ "dateTimestamp": "Sat Sep 27 20:26:48 2025",
+ "timestampMillis": "1759019208637",
  "report": {
   "path": "/home/dog/school/fpgaece450/p2/filter/filter/hls",
   "name": "",
@@ -149,8 +149,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Sat Sep 27 19:05:22 2025",
- "timestampMillis": "1759014322252",
+ "dateTimestamp": "Sat Sep 27 20:26:48 2025",
+ "timestampMillis": "1759019208637",
  "report": {
   "path": "/home/dog/school/fpgaece450/p2/filter/filter/hls",
   "name": "",
@@ -163,8 +163,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Sat Sep 27 19:05:22 2025",
- "timestampMillis": "1759014322252",
+ "dateTimestamp": "Sat Sep 27 20:26:48 2025",
+ "timestampMillis": "1759019208638",
  "report": {
   "path": "/home/dog/school/fpgaece450/p2/filter/filter/hls",
   "name": "",
@@ -177,10 +177,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Sat Sep 27 19:06:02 2025",
- "timestampMillis": "1759014362412",
+ "dateTimestamp": "Sat Sep 27 20:27:36 2025",
+ "timestampMillis": "1759019256967",
  "status": {
-  "cmdId": "f2a537c2-6c7e-43db-a9ae-91012f7664fb",
+  "cmdId": "0bb22471-e58a-4fa7-a576-7fd9a45bd454",
   "state": "CS_PASSED"
  }
 }
@@ -188,10 +188,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Sat Sep 27 19:06:02 2025",
- "timestampMillis": "1759014362508",
+ "dateTimestamp": "Sat Sep 27 20:27:37 2025",
+ "timestampMillis": "1759019257092",
  "status": {
-  "cmdId": "c8a48f43-9cca-4e4a-80df-72910503314b",
+  "cmdId": "c806dd5c-2866-4e0d-8f66-0e940b4e089f",
   "state": "CS_PASSED"
  }
 }
@@ -199,8 +199,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Sat Sep 27 19:06:02 2025",
- "timestampMillis": "1759014362508",
+ "dateTimestamp": "Sat Sep 27 20:27:37 2025",
+ "timestampMillis": "1759019257092",
  "report": {
   "path": "",
   "name": "",
@@ -213,8 +213,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Sat Sep 27 19:06:02 2025",
- "timestampMillis": "1759014362508",
+ "dateTimestamp": "Sat Sep 27 20:27:37 2025",
+ "timestampMillis": "1759019257093",
  "report": {
   "path": "",
   "name": "",

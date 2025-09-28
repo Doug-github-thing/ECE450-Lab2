@@ -6,8 +6,6 @@ Multi-threading is on. Using 6 slave threads.
 WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/glbl.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter_fir_filter_Pipeline_VITIS_LOOP_13_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fir_filter_fir_filter_Pipeline_VITIS_LOOP_13_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/AESL_automem_out_r.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module AESL_automem_out_r
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter.v" into library xil_defaultlib
@@ -16,12 +14,8 @@ INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p
 INFO: [VRFC 10-311] analyzing module AESL_automem_in_r
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter.autotb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module apatb_fir_filter_top
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fir_filter_flow_control_loop_pipe_sequential_init
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter_mul_32s_3s_32_2_1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fir_filter_mul_32s_3s_32_2_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter_fir_filter_Pipeline_VITIS_LOOP_18_2.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fir_filter_fir_filter_Pipeline_VITIS_LOOP_18_2
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module dataflow_monitor
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
@@ -44,17 +38,14 @@ Compiling package std.std
 Compiling package xil_defaultlib.fir_filter_subsystem_pkg
 Compiling package xil_defaultlib.file_agent_pkg
 Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
-Compiling module xil_defaultlib.fir_filter_flow_control_loop_pip...
-Compiling module xil_defaultlib.fir_filter_fir_filter_Pipeline_V...
 Compiling module xil_defaultlib.fir_filter_mul_32s_3s_32_2_1(NUM...
-Compiling module xil_defaultlib.fir_filter_fir_filter_Pipeline_V...
 Compiling module xil_defaultlib.fir_filter
 Compiling module xil_defaultlib.misc_interface_default
 Compiling module xil_defaultlib.sv_module_top
 Compiling module xil_defaultlib.AESL_automem_in_r
 Compiling module xil_defaultlib.AESL_automem_out_r
 Compiling module xil_defaultlib.nodf_module_intf_default
-Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.pp_loop_intf(FSM_WIDTH=3)
 Compiling module xil_defaultlib.dataflow_monitor_1
 Compiling module xil_defaultlib.apatb_fir_filter_top
 Compiling module xil_defaultlib.glbl

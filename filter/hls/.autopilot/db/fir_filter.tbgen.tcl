@@ -14,7 +14,7 @@ set hasInterrupt 0
 set DLRegFirstOffset 0
 set DLRegItemOffset 0
 set svuvm_can_support 1
-set cdfgNum 5
+set cdfgNum 2
 set C_modelName {fir_filter}
 set C_modelType { void 0 }
 set ap_memory_interface_dict [dict create]
@@ -64,81 +64,32 @@ set NewPortList {[
 
 set ArgLastReadFirstWriteLatency {
 	fir_filter {
-		in_r {Type I LastRead 0 FirstWrite -1}
-		out_r {Type O LastRead -1 FirstWrite 6}
-		shift_reg_0 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_1 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_2 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_3 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_4 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_5 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_6 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_7 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_8 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_9 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_10 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_11 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_12 {Type IO LastRead -1 FirstWrite -1}
+		in_r {Type I LastRead 1 FirstWrite -1}
+		out_r {Type O LastRead -1 FirstWrite 7}
 		shift_reg_13 {Type IO LastRead -1 FirstWrite -1}
-		shift_reg_14 {Type IO LastRead -1 FirstWrite -1}}
-	fir_filter_Pipeline_VITIS_LOOP_13_1 {
-		shift_reg_0 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_1 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_2 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_3 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_4 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_5 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_6 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_7 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_8 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_9 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_10 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_11 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_12 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_13 {Type O LastRead -1 FirstWrite 0}
-		shift_reg_14 {Type O LastRead -1 FirstWrite 0}}
-	fir_filter_Pipeline_VITIS_LOOP_18_2 {
-		shift_reg_0_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_1_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_2_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_3_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_4_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_5_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_6_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_7_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_8_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_9_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_10_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_11_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_12_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_13_load {Type I LastRead 0 FirstWrite -1}
-		shift_reg_14_load {Type I LastRead 0 FirstWrite -1}
-		in_r {Type I LastRead 0 FirstWrite -1}
-		out_r {Type O LastRead -1 FirstWrite 6}
-		p_out {Type O LastRead -1 FirstWrite 5}
-		p_out1 {Type O LastRead -1 FirstWrite 5}
-		p_out2 {Type O LastRead -1 FirstWrite 5}
-		p_out3 {Type O LastRead -1 FirstWrite 5}
-		p_out4 {Type O LastRead -1 FirstWrite 5}
-		p_out5 {Type O LastRead -1 FirstWrite 5}
-		p_out6 {Type O LastRead -1 FirstWrite 5}
-		p_out7 {Type O LastRead -1 FirstWrite 5}
-		p_out8 {Type O LastRead -1 FirstWrite 5}
-		p_out9 {Type O LastRead -1 FirstWrite 5}
-		p_out10 {Type O LastRead -1 FirstWrite 5}
-		p_out11 {Type O LastRead -1 FirstWrite 5}
-		p_out12 {Type O LastRead -1 FirstWrite 5}
-		p_out13 {Type O LastRead -1 FirstWrite 5}
-		p_out14 {Type O LastRead -1 FirstWrite 5}}}
+		shift_reg_12 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_11 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_10 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_9 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_8 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_7 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_6 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_5 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_4 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_3 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_2 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_1 {Type IO LastRead -1 FirstWrite -1}
+		shift_reg_0 {Type IO LastRead -1 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "285", "Max" : "285"}
-	, {"Name" : "Interval", "Min" : "286", "Max" : "286"}
+	{"Name" : "Latency", "Min" : "263", "Max" : "263"}
+	, {"Name" : "Interval", "Min" : "264", "Max" : "264"}
 ]}
 
 set PipelineEnableSignalInfo {[
+	{"Pipeline" : "0", "EnableSignal" : "ap_enable_pp0"}
 ]}
 
 set Spec2ImplPortList { 

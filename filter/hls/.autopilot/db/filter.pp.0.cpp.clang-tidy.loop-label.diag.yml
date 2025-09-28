@@ -37,40 +37,4 @@ Diagnostics:
         Offset:          574706
         Length:          0
         ReplacementText: 'VITIS_LOOP_1248_1: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_13_1:  '
-    FileOffset:      13
-    FilePath:        filter.cpp
-    Replacements:    
-      - FilePath:        /home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp
-        Offset:          950960
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_13_1: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_18_2:  '
-    FileOffset:      18
-    FilePath:        filter.cpp
-    Replacements:    
-      - FilePath:        /home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp
-        Offset:          951020
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_18_2: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_21_3:  '
-    FileOffset:      21
-    FilePath:        filter.cpp
-    Replacements:    
-      - FilePath:        /home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp
-        Offset:          951059
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_21_3: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_28_4:  '
-    FileOffset:      28
-    FilePath:        filter.cpp
-    Replacements:    
-      - FilePath:        /home/dog/school/fpgaece450/p2/filter/filter/hls/.autopilot/db/filter.pp.0.cpp
-        Offset:          951207
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_28_4: '
 ...

@@ -301,8 +301,6 @@ WARNING: [XSIM 43-3431] One or more environment variables have been detected whi
     LIBRARY_PATH
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/glbl.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter_fir_filter_Pipeline_VITIS_LOOP_13_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fir_filter_fir_filter_Pipeline_VITIS_LOOP_13_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/AESL_automem_out_r.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module AESL_automem_out_r
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter.v" into library xil_defaultlib
@@ -311,12 +309,8 @@ INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p
 INFO: [VRFC 10-311] analyzing module AESL_automem_in_r
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter.autotb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module apatb_fir_filter_top
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fir_filter_flow_control_loop_pipe_sequential_init
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter_mul_32s_3s_32_2_1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fir_filter_mul_32s_3s_32_2_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/fir_filter_fir_filter_Pipeline_VITIS_LOOP_18_2.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fir_filter_fir_filter_Pipeline_VITIS_LOOP_18_2
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module dataflow_monitor
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dog/school/fpgaece450/p2/filter/filter/hls/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
@@ -339,17 +333,14 @@ Compiling package std.std
 Compiling package xil_defaultlib.fir_filter_subsystem_pkg
 Compiling package xil_defaultlib.file_agent_pkg
 Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
-Compiling module xil_defaultlib.fir_filter_flow_control_loop_pip...
-Compiling module xil_defaultlib.fir_filter_fir_filter_Pipeline_V...
 Compiling module xil_defaultlib.fir_filter_mul_32s_3s_32_2_1(NUM...
-Compiling module xil_defaultlib.fir_filter_fir_filter_Pipeline_V...
 Compiling module xil_defaultlib.fir_filter
 Compiling module xil_defaultlib.misc_interface_default
 Compiling module xil_defaultlib.sv_module_top
 Compiling module xil_defaultlib.AESL_automem_in_r
 Compiling module xil_defaultlib.AESL_automem_out_r
 Compiling module xil_defaultlib.nodf_module_intf_default
-Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.pp_loop_intf(FSM_WIDTH=3)
 Compiling module xil_defaultlib.dataflow_monitor_1
 Compiling module xil_defaultlib.apatb_fir_filter_top
 Compiling module xil_defaultlib.glbl
@@ -359,7 +350,7 @@ Built simulation snapshot fir_filter
   **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
   **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
   **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-  **** Start of session at: Sat Sep 27 19:05:58 2025
+  **** Start of session at: Sat Sep 27 20:27:32 2025
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -367,8 +358,6 @@ source xsim.dir/fir_filter/xsim_script.tcl
 # xsim {fir_filter} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=fir_filter_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -view {{fir_filter_dataflow_ana.wcfg}} -tclbatch {fir_filter.tcl} -protoinst {fir_filter.protoinst}
 INFO: [Wavedata 42-565] Reading protoinst file fir_filter.protoinst
 INFO: [Wavedata 42-564]   Found protocol instance at /apatb_fir_filter_top/AESL_inst_fir_filter//AESL_inst_fir_filter_activity
-INFO: [Wavedata 42-564]   Found protocol instance at /apatb_fir_filter_top/AESL_inst_fir_filter/grp_fir_filter_Pipeline_VITIS_LOOP_13_1_fu_116/grp_fir_filter_Pipeline_VITIS_LOOP_13_1_fu_116_activity
-INFO: [Wavedata 42-564]   Found protocol instance at /apatb_fir_filter_top/AESL_inst_fir_filter/grp_fir_filter_Pipeline_VITIS_LOOP_18_2_fu_150/grp_fir_filter_Pipeline_VITIS_LOOP_18_2_fu_150_activity
 Time resolution is 1 ps
 open_wave_config fir_filter_dataflow_ana.wcfg
 source fir_filter.tcl
@@ -472,11 +461,11 @@ UVM_INFO /Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(2
 // RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
 ////////////////////////////////////////////////////////////////////////////////////
 // RTL Simulation : 0 / 1 [0.00%] @ "125000"
-// RTL Simulation : 1 / 1 [100.00%] @ "2975000"
+// RTL Simulation : 1 / 1 [100.00%] @ "2795000"
 ////////////////////////////////////////////////////////////////////////////////////
-$finish called at time : 3025 ns : File "/Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+$finish called at time : 2845 ns : File "/Xilinx/2025.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
 ## quit
-INFO: [Common 17-206] Exiting xsim at Sat Sep 27 19:06:02 2025...
+INFO: [Common 17-206] Exiting xsim at Sat Sep 27 20:27:36 2025...
 INFO: [COSIM 212-316] Starting C post checking ...
 result = 0
 result = 1
@@ -736,5 +725,5 @@ result = -1446
 result = -1452
 INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
 INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
-INFO: [HLS 200-112] Total CPU user time: 135.59 seconds. Total CPU system time: 2.42 seconds. Total elapsed time: 41.66 seconds; peak allocated memory: 335.277 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 46s
+INFO: [HLS 200-112] Total CPU user time: 158.85 seconds. Total CPU system time: 3.36 seconds. Total elapsed time: 50.12 seconds; peak allocated memory: 337.773 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 54s
